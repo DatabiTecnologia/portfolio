@@ -1,0 +1,33 @@
+<svg width="720" height="560" viewBox="0 0 720 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Painel de portfólio profissional</title>
+  <desc id="desc">Composição visual com cartões de projetos, indicadores e linhas de fluxo.</desc>
+  <rect width="720" height="560" rx="28" fill="#17202A"/>
+  <rect x="42" y="42" width="636" height="476" rx="18" fill="#F8FAFC"/>
+  <rect x="76" y="78" width="238" height="28" rx="8" fill="#15202B"/>
+  <rect x="76" y="124" width="350" height="12" rx="6" fill="#CBD5E1"/>
+  <rect x="76" y="146" width="286" height="12" rx="6" fill="#E2E8F0"/>
+  <rect x="502" y="78" width="82" height="82" rx="12" fill="#0F766E"/>
+  <rect x="594" y="78" width="48" height="82" rx="12" fill="#E76F51"/>
+  <rect x="76" y="204" width="178" height="132" rx="14" fill="#0F766E"/>
+  <rect x="102" y="230" width="74" height="12" rx="6" fill="#CCFBF1"/>
+  <rect x="102" y="264" width="112" height="14" rx="7" fill="#FFFFFF"/>
+  <rect x="102" y="292" width="86" height="10" rx="5" fill="#99F6E4"/>
+  <rect x="274" y="204" width="178" height="132" rx="14" fill="#111827"/>
+  <rect x="300" y="230" width="84" height="12" rx="6" fill="#94A3B8"/>
+  <rect x="300" y="264" width="112" height="14" rx="7" fill="#FFFFFF"/>
+  <rect x="300" y="292" width="96" height="10" rx="5" fill="#CBD5E1"/>
+  <rect x="472" y="204" width="170" height="132" rx="14" fill="#C59D2F"/>
+  <rect x="498" y="230" width="72" height="12" rx="6" fill="#FEF3C7"/>
+  <rect x="498" y="264" width="100" height="14" rx="7" fill="#FFFFFF"/>
+  <rect x="498" y="292" width="88" height="10" rx="5" fill="#FDE68A"/>
+  <rect x="76" y="376" width="260" height="96" rx="14" fill="#EEF5F3"/>
+  <path d="M104 434C128 394 154 448 180 418C206 388 226 418 246 398C266 378 286 406 308 386" stroke="#0F766E" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="104" cy="434" r="7" fill="#E76F51"/>
+  <circle cx="180" cy="418" r="7" fill="#E76F51"/>
+  <circle cx="246" cy="398" r="7" fill="#E76F51"/>
+  <circle cx="308" cy="386" r="7" fill="#E76F51"/>
+  <rect x="366" y="376" width="276" height="96" rx="14" fill="#F1F5F9"/>
+  <rect x="394" y="404" width="84" height="14" rx="7" fill="#15202B"/>
+  <rect x="394" y="432" width="198" height="10" rx="5" fill="#CBD5E1"/>
+  <rect x="394" y="452" width="154" height="10" rx="5" fill="#E2E8F0"/>
+</svg>
