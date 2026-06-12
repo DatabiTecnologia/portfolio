@@ -518,6 +518,82 @@ section:not(.hero) {
   font-weight: 800;
 }
 
+.dashboards-section {
+  background: #ffffff;
+}
+
+.dashboards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.dashboard-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+  gap: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 30px 70px rgba(21, 32, 43, 0.16);
+}
+
+.dashboard-header h3 {
+  margin: 0 0 8px;
+  font-size: 1.25rem;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.dashboard-header p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.dashboard-iframe-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 600 / 373.5;
+  border-radius: calc(var(--radius) - 2px);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #f8fafc;
+}
+
+.dashboard-iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.dashboard-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.dashboard-footer .badge {
+  padding: 6px 10px;
+  background: #edf2f7;
+  border-radius: var(--radius);
+  color: #334155;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
 @media (max-width: 920px) {
   .hero,
   .contact-section {
@@ -535,7 +611,8 @@ section:not(.hero) {
   .impact-grid,
   .project-grid,
   .skills-layout,
-  .credential-grid {
+  .credential-grid,
+  .dashboards-grid {
     grid-template-columns: 1fr;
   }
 
